@@ -24,7 +24,7 @@ jobs:
       - name: Check out the repo
         uses: actions/checkout@v2
       - name: Push to GitHub Packages
-        uses: docker/build-push-action@v1
+        uses: docker/build-push-action@v2
         with:
           username: ${{ github.actor }}
           # create access token and set to secret @see{@link https://docs.github.com/en/enterprise-server@3.0/github/authenticating-to-github/creating-a-personal-access-token}
