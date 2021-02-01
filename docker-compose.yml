@@ -1,0 +1,8 @@
+version: '3.3'
+
+services:
+  application:
+    image: ghcr.io/mohammadranjbarz/ci-cd-tutorial:latest
+    container_name: application
+    ports:
+      - 3000:3000
